@@ -1,6 +1,3 @@
-################## BEGIN INSTALLATION ######################
-# Install build server for picoKiosk server
-
 FROM ubuntu:xenial
 
 MAINTAINER GaRaOne
@@ -33,5 +30,3 @@ RUN apt-get update && \
 RUN rm -rf /var/lib/apt/lists/*
 
 CMD ["/bin/bash"]
-
-##################### INSTALLATION END #####################
